@@ -5,6 +5,7 @@ import discord
 from discord.ext import commands, tasks
 
 # サーバーに送るチャンネル
+TOKEN = "MTQzMjg2NzM3MjkxNzcxOTIwMw.Gh32hg.uF98Ce4_n1Gyu_fK6KC-YdVa51oXIrapTQS2iQ"
 TARGET_CHANNEL_ID = 1438675034976817247
 
 # DM送信するユーザーリスト
@@ -125,3 +126,4 @@ async def notifier():
 
 
 bot.run(TOKEN)
+
